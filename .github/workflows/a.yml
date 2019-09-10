@@ -12,6 +12,6 @@ jobs:
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.x'
-    - run: tree
+    - run: ls -la
 
     
