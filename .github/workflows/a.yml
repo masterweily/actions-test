@@ -1,0 +1,17 @@
+name: A
+
+on: [pull_request]
+
+
+jobs:
+  a:
+    name:   A
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.x'
+    - run: ls -la
+
+    
